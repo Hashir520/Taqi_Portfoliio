@@ -39,7 +39,11 @@ const Hero = () => {
       <div className="border border-blue-500 rounded-lg flex gap2 justify-center md:gap-3 lg:gap-5 z-[1] ">
         <div className="w-[403px]  rounded-lg  p-6">
         <div className="flex items-center justify-center">
-          <img src={taqi} alt="Logo" className="hero-img w-32 h-32" />
+        <img 
+  src={taqi} 
+  alt="Logo" 
+  className="hero-img w-44 h-44 object-cover mix-blend-multiply"
+/>
             </div>
           <div className="bg-[var(--cardbg)] text-center rounded-md p-4 mt-3">
             <h5 className="text-sm md:text-base text-white">{name} </h5>
