@@ -8,7 +8,7 @@ const WorkExperience = () => {
     >
       <h5 className="text-[var(--primary)] text-2xl md:text-3xl font-semibold text-center pb-14 md:pb-4">
         {" "}
-        Work Experience{" "}
+       Projects{" "}
       </h5>
 
       {WORK_EXPERIENCE.map((experience, index) => (
@@ -18,6 +18,7 @@ const WorkExperience = () => {
           position={experience.position}
           duration={experience.duration}
           description={experience.description}
+       
           index={index}
           isLast={index === WORK_EXPERIENCE.length - 1}
         />
@@ -58,7 +59,7 @@ const WorkExperienceCard = ({
             {duration}
           </div>
         </div>
-        <p className="text-blue-50 text-xs font-light leading-5 mt-5">
+        <p className="text-blue-50 text-xs text-justify  font-light leading-5 mt-5">
           {description}{" "}
         </p>
       </div>

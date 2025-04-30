@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="flex-1 text-center md:text-left z-[1]">
         <span className="text-xl  md:text-5xl text-blue-200 font-thin">
           {" "}
-       Python Developer
+          Software and Business Freelance Developer
         </span>
         <h2 className="text-3xl mt-3 md:text-5xl md:mt-5">{name} </h2>
         <p className="w-full text-xs font-light text-neutral-50 leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8">
